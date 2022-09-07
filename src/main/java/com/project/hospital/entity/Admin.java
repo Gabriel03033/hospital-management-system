@@ -12,7 +12,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name="admin")
+@Table(name="admins")
 public class Admin {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -35,7 +35,7 @@ public class Admin {
                email.equals(admin.email) &&
                password.equals(admin.password) &&
                mobile.equals(admin.mobile) &&
-               address.equals(admin.address) &&;
+               address.equals(admin.address);
     }
     @Override
     public int hashCode() {
