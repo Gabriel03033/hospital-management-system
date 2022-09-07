@@ -3,7 +3,7 @@ package com.project.hospital.enums;
 public enum SpecialtyType {
     CARDIOLOGY,
     DERMATOLOGY,
-    ENDOCRINOLOGIST,
+    ENDOCRINOLOGY,
     EMERGENCY_MEDICINE,
     FAMILY_MEDICINE,
     GASTROENTEROLOGY,
@@ -20,11 +20,11 @@ public enum SpecialtyType {
     ORTHOPEDICS,
     PATHOLOGY,
     PEDIATRICS,
-    PHARMACIST,
+    PHARMACOLOGY,
     PSYCHIATRY,
     RADIOLOGY,
-    RHEUMATOLOGIST,
+    RHEUMATOLOGY,
     SLEEP_MEDICINE,
     SPORT_MEDICINE,
-    UROLOGIST
+    UROLOGY
 }
